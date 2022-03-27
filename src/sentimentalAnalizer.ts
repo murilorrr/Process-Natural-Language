@@ -12,4 +12,3 @@ const sentimentalAnaly = new SentimentAnalyzer(
 
 console.log(sentimentalAnaly.getSentiment(wordTokenizer.tokenize(albertText)));
 // return: Número que referencia se o sentimento é negativo ou positivo e sua intensidade
-
